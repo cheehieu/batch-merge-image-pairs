@@ -1,7 +1,7 @@
 batch-merge-image-pairs
 =======================
 
-<img src="images/final_gif.gif">
+<img src="http://niftyhedgehog.com/batch-merge-image-pairs/images/final_gif.gif">
 
 ## Overview
 The batch-merge-image-pairs function copies the visible image from source1/ and merges it with the corresponding image in source2/. The source2/ image is overwritten by the merged image. Inspiration for this function came from a desire to create a side-by-side GIF animation. 
