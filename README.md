@@ -9,7 +9,9 @@ The batch-merge-image-pairs function copies the visible image from source1/ and 
 The demo GIF features musician, James Brown, doing his signature split dance move. The other individual is a flexible friend, FSCJ, who found a way to merge the "Godfather of Soul" with the sport of curling.
 
 ## Usage
-```user@host:~$ gimp -i -b '(batch-merge-image-pairs "source1/*.xcf" "source2/*.xcf")' -b '(gimp-quit 0)'```
+```
+user@host:~$ gimp -i -b '(batch-merge-image-pairs "source1/*.xcf" "source2/*.xcf")' -b '(gimp-quit 0)'
+```
 
 ## Procedure
 1. Place "batch-merge-image-pairs.scm" in the ~/.gimp-x.x/scripts/ directory
